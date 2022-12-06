@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "dev.levkush.astronaut.mixin.mixins",
+  "refmap": "mixins.astronaut.refmap.json",
+  "mixins": [
+    "MixinBlockLiquid",
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiNewChat",
+    "MixinGuiPlayerTabOverlay",
+    "MixinGuiScreen",
+    "MixinItemRenderer",
+    "MixinMinecraft",
+    "MixinModelPlayer",
+    "MixinNetworkManager",
+    "MixinPlayerControllerMP",
+    "MixinRenderEnderCrystal",
+    "MixinRenderLivingBase",
+    "MixinWorld"
+  ]
+}
